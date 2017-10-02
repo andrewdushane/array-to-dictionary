@@ -4,7 +4,7 @@
   "description": "Convert Javascript/JSON arrays to dictionaries",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andy-j-d/safe-localstorage"
+    "url": "https://github.com/andy-j-d/array-to-dictionary"
   },
   "main": "index.js",
   "scripts": {
