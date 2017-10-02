@@ -38,7 +38,7 @@ const listWithChangedName = list.map(user => {
 
 There are various ways to do this, many even more cumbersome than the above to _write_ for the developer. With this method, we have to iterate the entire list to change one value.
 
-### Using dictionaries
+### Using dictionaries:
 
 We iterate the array once to create a dictionary, then we can use the dictionary for operations on single members of the list without any further iteration. This makes the code
 easier to write and operations easier on the processor.
@@ -199,3 +199,9 @@ const enhancedThings = arrayToDictionary(thingsToEnhance, {
   },
 }
 ```
+
+## A more robust alternative:
+
+[normalizr](https://github.com/paularmstrong/normalizr):
+
+Normalizr is a more feature-rich way to create dictionaries from arrays. Nested objects are broken out into dictionaries according to a user-defined schema. A great alternative that requires a bit more buy-in.
