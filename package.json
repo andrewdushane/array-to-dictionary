@@ -14,8 +14,9 @@
   "keywords": ["array", "dictionary", "javascript", "json", "normalize"],
   "author": "Andrew Dushane",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-babili": "^0.1.4",
     "babel-preset-env": "^1.6.0",
     "jest": "^21.2.1"
