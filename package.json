@@ -1,0 +1,23 @@
+{
+  "name": "array-to-dictionary",
+  "version": "1.0.0",
+  "description": "Convert Javascript/JSON arrays to dictionaries",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andy-j-d/safe-localstorage"
+  },
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src.js -o index.js",
+    "test": "jest --verbose"
+  },
+  "keywords": ["array", "dictionary", "javascript", "json", "normalize"],
+  "author": "Andrew Dushane",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-babili": "^0.1.4",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.2.1"
+  }
+}
