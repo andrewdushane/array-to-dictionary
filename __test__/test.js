@@ -100,4 +100,30 @@ describe('Array to Dictionary', () => {
     const converted = arrayToDictionary(inconsistentList);
     expect(converted).toMatchSnapshot();
   });
+  test('retains value with id of `0`', () => {
+    const listWithZero = [
+      {
+        id: 0,
+        flavor: 'hazelnut',
+      },
+      {
+        id: 1,
+        flavor: 'vanilla',
+      },
+      {
+        id: 2,
+        flavor: 'chocolate',
+      },
+      {
+        id: 3,
+        flavor: 'strawberry',
+      },
+      {
+        id: 4,
+        flavor: 'astronaut',
+      },
+    ];
+    const converted = arrayToDictionary(listWithZero);
+    expect(converted).toMatchSnapshot();
+  });
 });
