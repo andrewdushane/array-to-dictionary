@@ -21,6 +21,31 @@ Object {
 }
 `;
 
+exports[`Array to Dictionary retains value with id of \`0\` 1`] = `
+Object {
+  "0": Object {
+    "flavor": "hazelnut",
+    "id": 0,
+  },
+  "1": Object {
+    "flavor": "vanilla",
+    "id": 1,
+  },
+  "2": Object {
+    "flavor": "chocolate",
+    "id": 2,
+  },
+  "3": Object {
+    "flavor": "strawberry",
+    "id": 3,
+  },
+  "4": Object {
+    "flavor": "astronaut",
+    "id": 4,
+  },
+}
+`;
+
 exports[`Array to Dictionary skips null and non-POJO values 1`] = `
 Object {
   "1": Object {

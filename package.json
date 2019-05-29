@@ -1,6 +1,6 @@
 {
   "name": "array-to-dictionary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Javascript/JSON arrays to dictionaries",
   "repository": {
     "type": "git",
@@ -11,7 +11,13 @@
     "babel": "babel src.js -o index.js",
     "test": "jest --verbose"
   },
-  "keywords": ["array", "dictionary", "javascript", "json", "normalize"],
+  "keywords": [
+    "array",
+    "dictionary",
+    "javascript",
+    "json",
+    "normalize"
+  ],
   "author": "Andrew Dushane",
   "license": "MIT",
   "devDependencies": {

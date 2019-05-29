@@ -12,7 +12,7 @@ const arrayToDictionary = (list = [], userDefinedOptions = {}) => {
   };
   return list.reduce((dictionary, item) => {
     // skip falsy members or members with no `indexKey`
-    if (!item || !(item[indexKey] || item[indexKey === 0])) {
+    if (!item || !(item[indexKey] || item[indexKey] === 0)) {
       return dictionary;
     }
     return {
